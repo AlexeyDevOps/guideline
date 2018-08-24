@@ -1,0 +1,10 @@
+.container {
+    position: relative;
+    box-sizing: border-box;
+    background: white;
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 30px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ddd;
+}

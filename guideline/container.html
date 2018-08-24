@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title></title>
+	</head>
+	<body>
+		<div class="page-container">
+			<header class="header">
+				<div class="container">
+					<a class="logo" href="#">Company</a>
+					<div class="menu-block">
+						<ul class="navbar">
+							<li><a href="button.html">Button</a></li>
+							<li><a href="input.html">Input</a></li>
+							<li><a href="textarea.html">Text Area</a></li>
+							<li><a href="container.html" class="active">Container</a></li>
+							<li><a href="table.html">Table</a></li>
+						</ul>
+					</div>
+					<div class="profile-block">
+						<button class="button">Login</button>
+					</div>
+				</div>
+			</header>
+
+			<div class="container content">
+				<h1 class="title">Элемент управления Container (Контейнер)</h1>
+				<span class="annotation">
+					Элемент &lt;div&gt; является блочным элементом и предназначен для выделения фрагмента документа с целью изменения вида содержимого.
+					Как правило, вид блока управляется с помощью стилей.
+					Чтобы не описывать каждый раз стиль внутри тега, можно выделить стиль во внешнюю таблицу стилей, а для тега добавить атрибут class или id с именем селектора.
+					Как и при использовании других блочных элементов, содержимое тега &lt;div&gt; всегда начинается с новой строки.
+					После него также добавляется перенос строки.</span>
+				<div class="blocks-container">
+					<div class="block">
+						<div class="blocks-container block-sample">Содержимое контейнера...</div>
+						<div class="blocks-container block-sample">Содержимое контейнера...</div>
+						<div class="blocks-container block-sample">Содержимое контейнера...</div>
+						<div class="blocks-container block-sample">Содержимое контейнера...</div>
+						<div class="blocks-container block-sample">Содержимое контейнера...</div>
+						<div class="blocks-container block-sample">Содержимое контейнера...</div>
+						<div class="blocks-container block-sample">Содержимое контейнера...</div>
+						<div class="blocks-container block-sample">Содержимое контейнера...</div>
+						<div class="blocks-container block-sample">Содержимое контейнера...</div>
+					</div>
+					<div class="block markup-sample">
+						&lt;div class="blocks-container block-sample"&gt;Содержимое контейнера...&lt;/div&gt;
+					</div>					
+				</div>
+			</div>
+
+			<footer class="footer">
+				<div class="container">
+					<a class="link" href="/">Logo</a>
+					<a class="link" href="/policy">Policy</a>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
+
+<link rel="stylesheet" href="style/page.css" >

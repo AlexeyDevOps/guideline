@@ -1,0 +1,38 @@
+.block {
+    display: inline-block;
+    box-sizing: border-box;
+    max-width: 500px;
+    width: 100%;
+    min-height: 300px;	
+    margin-bottom: 64px;
+}
+
+.block.markup-sample {
+	background: #f7f3f7;
+	padding: 10px 10px;
+	line-height: 1.5;
+	font-family: monospace;
+}
+
+.block .control-group {
+	padding: 24px 0;
+}
+
+.block .block-sample {
+	height: 40px;
+	background: #e0e0e0;
+	margin: 0 0 12px;
+	padding: 10px 15px;
+	border: 1px solid gray;
+	border-radius: 3px;
+}
+
+.profile-block {
+	margin: auto 0;
+}
+
+@media(max-width: 768px) {
+    .block {
+        max-width: 100%;
+    }
+}

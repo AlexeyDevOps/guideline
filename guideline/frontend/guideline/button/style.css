@@ -1,0 +1,56 @@
+.button {
+    display: inline-block;
+    box-sizing: border-box;
+    background: #e7aa31;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+    height: 36px;
+    padding: 0 18px;	
+}
+
+.button:active {
+    transform: translateY(1px);
+}
+
+.button:hover {
+    background: #f7b231;
+}
+
+.button:focus {
+	border: 2px dotted;
+}
+
+.button:disabled {
+    background: gray;
+}
+
+.button.cancel {
+	background: white;
+	color: black;
+	border: 1px solid gray;
+}
+
+.button.cancel:focus {
+	border: 2px dotted;
+}
+
+.button.cancel:disabled {
+	background: #c6c3c6;
+	color: white;
+	border: none;	
+}
+
+.button.warning {
+	background: #de4d42;
+}
+
+.button.warning:hover {
+	background: #f7614a;
+}
+
+.button.warning:disabled {
+	background: #868386;
+}

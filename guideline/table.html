@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title></title>
+	</head>
+	<body>
+		<div class="page-container">
+			<header class="header">
+				<div class="container">
+					<a class="logo" href="#">Company</a>
+					<div class="menu-block">
+						<ul class="navbar">
+							<li><a href="button.html">Button</a></li>
+							<li><a href="input.html">Input</a></li>
+							<li><a href="textarea.html">Text Area</a></li>
+							<li><a href="container.html">Container</a></li>
+							<li><a href="table.html" class="active">Table</a></li>
+						</ul>
+					</div>
+					<div class="profile-block">
+						<button class="button">Login</button>
+					</div>
+				</div>
+			</header>
+
+			<div class="container content">
+				<h1 class="title">Элемент управления Table (Таблица)</h1>
+				<span class="annotation">
+					Элемент &lt;table&gt; служит контейнером для элементов, определяющих содержимое таблицы.
+					Любая таблица состоит из строк и ячеек, которые задаются с помощью тегов &lt;tr&gt; и &lt;td&gt;.
+					Внутри &lt;table&gt; допустимо использовать следующие элементы: &lt;caption&gt;, &lt;col&gt;, &lt;colgroup&gt;, &lt;tbody&gt;, &lt;td&gt;, &lt;tfoot&gt;, &lt;th&gt;, &lt;thead&gt; и &lt;tr&gt;.
+					Таблицы с невидимой границей долгое время использовались для верстки веб-страниц, позволяя разделять документ на модульные блоки.
+					Подобный способ применения таблиц нашел воплощение на многих сайтах, пока ему на смену не пришел более современный способ верстки с помощью слоев.
+				</span>
+				<div class="blocks-container">
+					<div class="block">
+						<div class="blocks-container control-group">
+							<table class="table">
+								<thead>
+									<tr>
+										<th>ID</th>
+										<th>Домен</th>
+										<th>Телефон</th>
+										<th>Адрес</th>										
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>1230001</td>
+										<td>example1.com</td>
+										<td>(123) 456-789-001</td>
+										<td>Россия, Москва</td>
+									</tr>
+									<tr>
+										<td>1230002</td>
+										<td>example2.com</td>
+										<td>(123) 456-789-002</td>
+										<td>Россия, Москва</td>
+									</tr>
+									<tr>
+										<td>1230003</td>
+										<td>example3.com</td>
+										<td>(123) 456-789-003</td>
+										<td>Россия, Москва</td>
+									</tr>
+									<tr>
+										<td>1230004</td>
+										<td>example4.com</td>
+										<td>(123) 456-789-004</td>
+										<td>Россия, Москва</td>
+									</tr>
+									<tr>
+										<td>1230005</td>
+										<td>example5.com</td>
+										<td>(123) 456-789-005</td>
+										<td>Россия, Москва</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>						
+					</div>
+					<div class="block markup-sample">
+						&lt;table class="table"&gt;<br/>
+							&lt;thead&gt;<br/>
+								&lt;tr&gt;<br/>
+									&lt;th&gt;...&lt;/th&gt;<br/>
+									&lt;th&gt;...&lt;/th&gt;<br/>
+									&lt;th&gt;...&lt;/th&gt;<br/>
+								&lt;/tr&gt;<br/>
+							&lt;/thead&gt;<br/>
+							&lt;tbody&gt;<br/>
+								&lt;tr&gt;<br/>
+									&lt;td&gt;...&lt;/td&gt;<br/>
+									&lt;td&gt;...&lt;/td&gt;<br/>
+									&lt;td&gt;...&lt;/td&gt;<br/>
+								&lt;/tr&gt;<br/>
+							&lt;/tbody&gt;<br/>
+						&lt;/table&gt;
+					</div>					
+				</div>
+			</div>
+
+			<footer class="footer">
+				<div class="container">
+					<a class="link" href="/">Logo</a>
+					<a class="link" href="/policy">Policy</a>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
+
+<link rel="stylesheet" href="style/page.css" >

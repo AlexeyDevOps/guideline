@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title></title>
+	</head>
+	<body>
+		<div class="page-container">
+			<header class="header">
+				<div class="container">
+					<a class="logo" href="#">Company</a>
+					<div class="menu-block">
+						<ul class="navbar">
+							<li><a href="button.html">Button</a></li>
+							<li><a href="input.html">Input</a></li>
+							<li><a href="textarea.html" class="active">Text Area</a></li>
+							<li><a href="container.html">Container</a></li>
+							<li><a href="table.html">Table</a></li>
+						</ul>
+					</div>
+					<div class="profile-block">
+						<button class="button">Login</button>
+					</div>
+				</div>
+			</header>
+
+			<div class="container content">
+				<h1 class="title">Элемент управления Text Area (Многострочное поле ввода)</h1>
+				<span class="annotation">
+					Поле &lt;textarea&gt; представляет собой элемент формы для создания области, в которую можно вводить несколько строк текста.
+					В отличие от тега &lt;input&gt; в текстовом поле допустимо делать переносы строк, они сохраняются при отправке данных на сервер.
+					Между тегами &lt;textarea&gt; и &lt;/textarea&gt; можно поместить любой текст, который будет отображаться внутри поля.
+				</span>
+				<div class="blocks-container">
+					<div class="block">
+						<div class="blocks-container control-group">
+							<textarea class="textarea" tabindex="1" placeholder="Введите комментарий">Это пример текста в многострочном поле ввода</textarea>
+							<textarea class="textarea" tabindex="2" placeholder="Введите комментарий" disabled>Это пример текста в многострочном поле ввода</textarea>
+						</div>						
+					</div>
+					<div class="block markup-sample">
+						&lt;textarea class="textarea" placeholder="..." [disabled]&gt;[...]&lt;/textarea&gt;
+					</div>					
+				</div>
+			</div>
+
+			<footer class="footer">
+				<div class="container">
+					<a class="link" href="/">Logo</a>
+					<a class="link" href="/policy">Policy</a>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
+
+<link rel="stylesheet" href="style/page.css" >

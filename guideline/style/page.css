@@ -1,0 +1,38 @@
+@import '../frontend/base.css';
+@import '../frontend/guideline/container/style.css';
+@import '../frontend/guideline/button/style.css';
+@import '../frontend/guideline/footer/style.css';
+@import '../frontend/guideline/header/style.css';
+@import '../frontend/guideline/block/style.css';
+@import '../frontend/guideline/annotation/style.css';
+@import '../frontend/guideline/menu/style.css';
+@import '../frontend/guideline/input/style.css';
+@import '../frontend/guideline/textarea/style.css';
+@import '../frontend/guideline/table/style.css';
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    min-height: 100%;
+    background: #f0f0f0;
+}
+
+.page-container>.container {
+    flex: 1;
+    margin-bottom: 24px;
+}
+
+.page-container .title {
+    display: block;
+    font-size: 28px;
+    margin: 0 0 24px;
+}
+
+.page-container .blocks-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+

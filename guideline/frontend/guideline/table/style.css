@@ -1,0 +1,27 @@
+﻿.table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.table thead th {
+	color: #4a4a4a;
+	cursor: pointer;
+	height: 34px;
+	padding: 0;
+	position: relative;
+	font-size: 12px;
+	box-sizing: border-box;
+	text-align: left;
+	font-weight: 300;
+	user-select: none;
+	line-height: 34px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.table tbody td {
+	padding: 11px 0;
+	font-size: 14px;
+	line-height: 18px;
+	vertical-align: middle;
+}

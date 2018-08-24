@@ -1,0 +1,25 @@
+.header {
+    position: relative;
+    box-sizing: border-box;
+    background: white;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 24px;
+}
+
+.header .container {
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.header .logo {
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    font-size: 18px;
+    width: 74px;
+    margin: auto 0;
+    color: #ccc;
+    text-decoration: none;
+}

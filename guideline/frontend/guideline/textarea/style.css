@@ -1,0 +1,22 @@
+﻿.textarea {
+	width: 300px;
+	border: 1px solid gray;
+	resize: vertical;
+	outline: none;
+	padding: 11px 12px;
+	margin: 3px 5px 10px;
+	font-size: 15px;
+	box-sizing: border-box;
+	min-height: 90px;
+	line-height: 1.2;
+	border-radius: 3px;
+}
+
+.textarea:disabled {
+	color: #4a4a4a;
+	pointer-events: none;
+}
+
+.textarea:focus {
+	border: 1px dotted;
+}

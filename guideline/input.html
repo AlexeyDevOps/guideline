@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title></title>
+	</head>
+	<body>
+		<div class="page-container">
+			<header class="header">
+				<div class="container">
+					<a class="logo" href="#">Company</a>
+					<div class="menu-block">
+						<ul class="navbar">
+							<li><a href="button.html">Button</a></li>
+							<li><a href="input.html" class="active">Input</a></li>
+							<li><a href="textarea.html">Text Area</a></li>
+							<li><a href="container.html">Container</a></li>
+							<li><a href="table.html">Table</a></li>
+						</ul>
+					</div>
+					<div class="profile-block">
+						<button class="button">Login</button>
+					</div>
+				</div>
+			</header>
+
+			<div class="container content">
+				<h1 class="title">Элемент управления Input (Поле ввода)</h1>
+				<span class="annotation">
+					Тег &lt;input&gt; является одним из разносторонних элементов формы и позволяет создавать разные элементы интерфейса и обеспечить взаимодействие с пользователем.
+					Главным образом &lt;input&gt; предназначен для создания текстовых полей, различных кнопок, переключателей и флажков.
+					Хотя элемент &lt;input&gt; не требуется помещать внутрь контейнера &lt;form&gt;, определяющего форму, но если введенные пользователем данные должны быть отправлены на сервер, где их обрабатывает серверная программа, то указывать &lt;form&gt; обязательно.
+					То же самое обстоит и в случае обработки данных с помощью клиентских приложений, например, скриптов на языке JavaScript.
+				</span>
+				<div class="blocks-container">
+					<div class="block">
+						<div class="blocks-container control-group">
+							<input class="input" tabindex="1" value="Комментарий к заказу" placeholder="Введите комментарий"/>
+							<input class="input" tabindex="2" value="Комментарий к заказу" placeholder="Введите комментарий" disabled/>
+						</div>
+						<div class="blocks-container control-group">
+							<input class="input" tabindex="1" placeholder="Введите комментарий"/>
+							<input class="input" tabindex="2" placeholder="Введите комментарий" disabled/>
+						</div>						
+					</div>
+					<div class="block markup-sample">
+						&lt;input class="input" value="..." placeholder="..." [disabled]/&gt;
+					</div>					
+				</div>
+			</div>
+
+			<footer class="footer">
+				<div class="container">
+					<a class="link" href="/">Logo</a>
+					<a class="link" href="/policy">Policy</a>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
+
+<link rel="stylesheet" href="style/page.css" >
