@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title></title>
+		<script defer src="frontend/guideline/modal/action.js"></script>
+	</head>
+	<body>
+		<div class="page-container">
+			<header class="header">
+				<div class="container">
+					<a class="logo" href="#">Company</a>
+					<div class="menu-block">
+						<ul class="navbar">
+							<li><a href="button.html">Button</a></li>
+							<li><a href="input.html">Input</a></li>
+							<li><a href="container.html">Container</a></li>
+							<li><a href="textarea.html">Text Area</a></li>
+							<li><a href="table.html">Table</a></li>
+							<li><a href="popover.html">Popover</a></li>
+							<li><a href="modal.html" class="active">Modal</a></li>
+							<li><a href="dropdown.html">Dropdown</a></li>
+						</ul>
+					</div>
+					<div class="profile-block">
+						<button class="button">Login</button>
+					</div>
+				</div>
+			</header>
+
+			<div class="container content">
+				<h1 class="title">Элемент управления Modal</h1>
+				<span class="annotation">
+					Модальное окно в графическом интерфейсе пользователя — окно, которое блокирует работу пользователя с родительским приложением до тех пор, пока пользователь это окно не закроет.
+				</span>
+				<div class="blocks-container">
+					<div class="block">
+						<div class="blocks-container control-group">
+							<button class="button modal-button" data-target="modalSample" title="Показать модальное окно">Показать</button>
+						</div>
+					</div>
+					<div class="block markup-sample">
+						&lt;div id="{modalId}" class="modal [hidden]" data-size='{"width": ..., "height": ...}' data-backdrop="{true/false}" data-content='{"header": "...", "content": "..."}'&gt;<br/>
+						&lt;div class="modal-backdrop"&gt;&lt;/div&gt;<br/>
+						&lt;div class="modal-body"&gt;<br/>
+						&lt;h1 class="modal-header"&gt;...&lt;/h1&gt;<br/>
+						&lt;div class="modal-content"&gt;...&lt;/div&gt;<br/>
+						&lt;/div&gt;<br/>
+						&lt;/div&gt;<br/>
+					</div>
+				</div>
+			</div>
+
+			<footer class="footer">
+				<div class="container">
+					<a class="link" href="/">Logo</a>
+					<a class="link" href="/policy">Policy</a>
+				</div>
+			</footer>
+			
+			<div id="modalSample" class="modal hidden" data-size='{"width": 0.7, "height": 0.6}' data-backdrop="true" data-content='{"header": "Тестовый загловок модального окна", "content": "Произвольное содержимое модального окна. Некоторый текст..."}'>
+				<div class="modal-backdrop"></div>
+				<div class="modal-body">
+					<button class="modal-close" title="Закрыть окно">&times;</button>
+					<h1 class="modal-header"></h1>
+					<div class="modal-content"></div>
+				</div>
+			</div>
+		</div>		
+	</body>
+</html>
+
+<link rel="stylesheet" href="style/page.css" >

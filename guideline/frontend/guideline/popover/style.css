@@ -1,0 +1,29 @@
+﻿.popover {
+    display: inline-block;
+    position: relative;
+}
+
+.popover .popover-button {
+    box-sizing: border-box;
+    cursor: pointer;
+    background: #0c7db0;
+    color: white;
+    padding: 20px;
+    border: none;
+    outline: none;	
+}
+
+.popover .popover-toggle {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    background: antiquewhite;
+	opacity: .9;
+	z-index: 1000;
+	padding: 10px 15px;
+}
+
+.popover .hidden {
+    opacity: 0;
+	z-index: -1000;
+}

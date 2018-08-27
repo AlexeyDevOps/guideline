@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title></title>
+		<script defer src="frontend/guideline/popover/action.js"></script>
+	</head>
+	<body>
+		<div class="page-container">
+			<header class="header">
+				<div class="container">
+					<a class="logo" href="#">Company</a>
+					<div class="menu-block">
+						<ul class="navbar">
+							<li><a href="button.html">Button</a></li>
+							<li><a href="input.html">Input</a></li>
+							<li><a href="container.html">Container</a></li>
+							<li><a href="textarea.html">Text Area</a></li>
+							<li><a href="table.html">Table</a></li>
+							<li><a href="popover.html" class="active">Popover</a></li>
+							<li><a href="modal.html">Modal</a></li>
+							<li><a href="dropdown.html">Dropdown</a></li>
+						</ul>
+					</div>
+					<div class="profile-block">
+						<button class="button">Login</button>
+					</div>
+				</div>
+			</header>
+
+			<div class="container content">
+				<h1 class="title">Элемент управления Popover</h1>
+				<span class="annotation">
+					Поповеры - американский вариант английский Йоркширских пуддингов. Легкие, полые внутри, делаются из яичного жидкого теста и выпекаются в формочках для маффинов.
+				</span>
+				<div class="blocks-container">
+					<div class="block">
+						<div class="blocks-container control-group">
+							<div class="popover" data-trigger="click">
+								<button class="popover-button">Click</button>
+								<div class="popover-toggle hidden">Это некоторый текст примера подксазки версии 1</div>
+							</div>
+							<div class="popover" data-trigger="hover" data-position="top">
+								<button class="popover-button">Hover top</button>
+								<div class="popover-toggle hidden">Это некоторый текст примера подксазки версии 2</div>
+							</div>
+							<div class="popover" data-trigger="hover" data-position="right">
+								<button class="popover-button">Hover right</button>
+								<div class="popover-toggle hidden">Это некоторый текст примера подксазки версии 3</div>
+							</div>
+							<div class="popover" data-trigger="hover" data-position="left">
+								<button class="popover-button">Hover left</button>
+								<div class="popover-toggle hidden">Это некоторый текст примера подксазки версии 4</div>
+							</div>
+							<div class="popover" data-trigger="hover" data-position="bottom">
+								<button class="popover-button">Hover bottom</button>
+								<div class="popover-toggle hidden">Это некоторый текст примера подксазки версии 5</div>
+							</div>
+						</div>
+					</div>
+					<div class="block markup-sample">
+						&lt;div class="popover" data-trigger="{click/hover}" data-position="{top/right/bottom/left}"&gt;<br/>
+						&lt;button class="popover-button"&gt;...&lt;/button&gt;<br/>
+						&lt;div class="popover-toggle [hidden]"&gt;...&lt;/div&gt;<br/>
+						&lt;/div&gt;<br/>
+					</div>
+				</div>
+			</div>
+
+			<footer class="footer">
+				<div class="container">
+					<a class="link" href="/">Logo</a>
+					<a class="link" href="/policy">Policy</a>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
+
+<link rel="stylesheet" href="style/page.css" >

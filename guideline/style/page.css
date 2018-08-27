@@ -9,6 +9,9 @@
 @import '../frontend/guideline/input/style.css';
 @import '../frontend/guideline/textarea/style.css';
 @import '../frontend/guideline/table/style.css';
+@import '../frontend/guideline/popover/style.css';
+@import '../frontend/guideline/modal/style.css';
+@import '../frontend/guideline/dropdown/style.css';
 
 .page-container {
     display: flex;

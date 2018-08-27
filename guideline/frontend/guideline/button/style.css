@@ -5,14 +5,10 @@
     color: white;
     border: none;
     border-radius: 2px;
-    outline: none;
+    outline: 1px solid;
     cursor: pointer;
     height: 36px;
     padding: 0 18px;	
-}
-
-.button:active {
-    transform: translateY(1px);
 }
 
 .button:hover {
@@ -20,7 +16,7 @@
 }
 
 .button:focus {
-	border: 2px dotted;
+	outline: 1px dotted;
 }
 
 .button:disabled {
@@ -30,11 +26,11 @@
 .button.cancel {
 	background: white;
 	color: black;
-	border: 1px solid gray;
+	outline: 1px solid gray;
 }
 
 .button.cancel:focus {
-	border: 2px dotted;
+	outline: 1px dotted;
 }
 
 .button.cancel:disabled {

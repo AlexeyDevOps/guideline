@@ -1,0 +1,43 @@
+﻿.modal {
+    
+}
+
+.modal .modal-backdrop {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: .7;
+	background: gray;
+	z-index: 1000;
+}
+
+.modal .modal-body {
+    position: absolute;
+	border: none;
+	background: white;
+	padding: 10px 15px;
+	z-index: 2000;
+}
+
+.modal .modal-close {
+    border: none;
+	cursor: pointer;
+	background: white;
+	float: right;
+	font-size: 26px;
+}
+
+.modal .modal-header {
+	text-align: center;
+}
+
+.modal .modal-content {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.modal.hidden {
+	display: none;
+}
