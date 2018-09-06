@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width">
 		<title></title>
-		<script defer src="frontend/guideline/popover/action.js"></script>
+		<script defer src="build/public/bundle.js"></script>
 	</head>
 	<body>
 		<div class="page-container">
@@ -35,30 +35,7 @@
 					Поповеры - американский вариант английский Йоркширских пуддингов. Легкие, полые внутри, делаются из яичного жидкого теста и выпекаются в формочках для маффинов.
 				</span>
 				<div class="blocks-container">
-					<div class="block">
-						<div class="blocks-container control-group">
-							<div class="popover" data-trigger="click">
-								<button class="popover-button">Click</button>
-								<div class="popover-toggle hidden">Это некоторый текст примера подксазки версии 1</div>
-							</div>
-							<div class="popover" data-trigger="hover" data-position="top">
-								<button class="popover-button">Hover top</button>
-								<div class="popover-toggle hidden">Это некоторый текст примера подксазки версии 2</div>
-							</div>
-							<div class="popover" data-trigger="hover" data-position="right">
-								<button class="popover-button">Hover right</button>
-								<div class="popover-toggle hidden">Это некоторый текст примера подксазки версии 3</div>
-							</div>
-							<div class="popover" data-trigger="hover" data-position="left">
-								<button class="popover-button">Hover left</button>
-								<div class="popover-toggle hidden">Это некоторый текст примера подксазки версии 4</div>
-							</div>
-							<div class="popover" data-trigger="hover" data-position="bottom">
-								<button class="popover-button">Hover bottom</button>
-								<div class="popover-toggle hidden">Это некоторый текст примера подксазки версии 5</div>
-							</div>
-						</div>
-					</div>
+					<div id="root" class="block"></div>
 					<div class="block markup-sample">
 						&lt;div class="popover" data-trigger="{click/hover}" data-position="{top/right/bottom/left}"&gt;<br/>
 						&lt;button class="popover-button"&gt;...&lt;/button&gt;<br/>

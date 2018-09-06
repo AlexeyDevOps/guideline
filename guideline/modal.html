@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width">
 		<title></title>
-		<script defer src="frontend/guideline/modal/action.js"></script>
+		<script defer src="build/public/bundle.js"></script>
 	</head>
 	<body>
 		<div class="page-container">
@@ -35,11 +35,7 @@
 					Модальное окно в графическом интерфейсе пользователя — окно, которое блокирует работу пользователя с родительским приложением до тех пор, пока пользователь это окно не закроет.
 				</span>
 				<div class="blocks-container">
-					<div class="block">
-						<div class="blocks-container control-group">
-							<button class="button modal-button" data-target="modalSample" title="Показать модальное окно">Показать</button>
-						</div>
-					</div>
+					<div id="root" class="block"></div>
 					<div class="block markup-sample">
 						&lt;div id="{modalId}" class="modal [hidden]" data-size='{"width": ..., "height": ...}' data-backdrop="{true/false}" data-content='{"header": "...", "content": "..."}'&gt;<br/>
 						&lt;div class="modal-backdrop"&gt;&lt;/div&gt;<br/>
@@ -58,16 +54,7 @@
 					<a class="link" href="/policy">Policy</a>
 				</div>
 			</footer>
-			
-			<div id="modalSample" class="modal hidden" data-size='{"width": 0.7, "height": 0.6}' data-backdrop="true" data-content='{"header": "Тестовый загловок модального окна", "content": "Произвольное содержимое модального окна. Некоторый текст..."}'>
-				<div class="modal-backdrop"></div>
-				<div class="modal-body">
-					<button class="modal-close" title="Закрыть окно">&times;</button>
-					<h1 class="modal-header"></h1>
-					<div class="modal-content"></div>
-				</div>
-			</div>
-		</div>		
+		</div>
 	</body>
 </html>
 

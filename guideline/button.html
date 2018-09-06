@@ -4,6 +4,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width">
 		<title></title>
+		<script defer src="build/public/bundle.js"></script>
 	</head>
 	<body>
 		<div class="page-container">
@@ -37,20 +38,7 @@
 					Теоретически, тег &lt;button&gt; должен располагаться внутри формы, устанавливаемой элементом &lt;form&gt;. Тем не менее, браузеры не выводят сообщение об ошибке и корректно работают с тегом &lt;button&gt;, если он встречается самостоятельно. Однако, если необходимо результат нажатия на кнопку отправить на сервер, помещать &lt;button&gt; в контейнер &lt;form&gt; обязательно.
 				</span>
 				<div class="blocks-container">
-					<div class="block">
-						<div class="blocks-container control-group">
-							<button class="button" tabindex="1">Action</button>
-							<button class="button" tabindex="2" disabled>Action</button>
-						</div>
-						<div class="blocks-container control-group">
-							<button class="button cancel" tabindex="3">Cancel</button>
-							<button class="button cancel" tabindex="4" disabled>Cancel</button>
-						</div>
-						<div class="blocks-container control-group">
-							<button class="button warning" tabindex="5">Warning</button>
-							<button class="button warning" tabindex="6" disabled>Warning</button>
-						</div>
-					</div>
+					<div id="root" class="block"></div>
 					<div class="block markup-sample">
 						&lt;button class="button"&gt;Action&lt;/button&gt;<br/>
 						&lt;button class="button" disabled&gt;Action&lt;/button&gt;<br/>

@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width">
 		<title></title>
-		<script defer src="frontend/guideline/dropdown/action.js"></script>
+		<script defer src="build/public/bundle.js"></script>
 	</head>
 	<body>
 		<div class="page-container">
@@ -40,20 +40,7 @@
 					Это также необходимо, когда к данным списка идет обращение через скрипты.<br/>
 				</span>
 				<div class="blocks-container">
-					<div class="block">
-						<div class="blocks-container control-group">
-							<div class="dropdown">
-								<button class="button dropdown-button" title="Показать выпадающий список">Показать</button>
-								<div class="dropdown-content">
-									<a href="#">Опция 1</a>
-									<a href="#">Опция 2</a>
-									<a href="#">Опция 3</a>
-									<a href="#">Опция 4</a>
-									<a href="#">Опция 5</a>
-								</div>
-							</div>
-						</div>
-					</div>
+					<div id="root" class="block"></div>
 					<div class="block markup-sample">
 						&lt;div class="dropdown"&gt;<br/>
 						&lt;button class="button dropdown-button"&gt;...&lt;/button&gt;<br/>

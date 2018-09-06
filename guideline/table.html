@@ -4,6 +4,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width">
 		<title></title>
+		<script defer src="build/public/bundle.js"></script>
 	</head>
 	<body>
 		<div class="page-container">
@@ -38,52 +39,7 @@
 					Подобный способ применения таблиц нашел воплощение на многих сайтах, пока ему на смену не пришел более современный способ верстки с помощью слоев.
 				</span>
 				<div class="blocks-container">
-					<div class="block">
-						<div class="blocks-container control-group">
-							<table class="table">
-								<thead>
-									<tr>
-										<th>ID</th>
-										<th>Домен</th>
-										<th>Телефон</th>
-										<th>Адрес</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>1230001</td>
-										<td>example1.com</td>
-										<td>(123) 456-789-001</td>
-										<td>Россия, Москва</td>
-									</tr>
-									<tr>
-										<td>1230002</td>
-										<td>example2.com</td>
-										<td>(123) 456-789-002</td>
-										<td>Россия, Москва</td>
-									</tr>
-									<tr>
-										<td>1230003</td>
-										<td>example3.com</td>
-										<td>(123) 456-789-003</td>
-										<td>Россия, Москва</td>
-									</tr>
-									<tr>
-										<td>1230004</td>
-										<td>example4.com</td>
-										<td>(123) 456-789-004</td>
-										<td>Россия, Москва</td>
-									</tr>
-									<tr>
-										<td>1230005</td>
-										<td>example5.com</td>
-										<td>(123) 456-789-005</td>
-										<td>Россия, Москва</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>						
-					</div>
+					<div id="root" class="block"></div>
 					<div class="block markup-sample">
 						&lt;table class="table"&gt;<br/>
 							&lt;thead&gt;<br/>
