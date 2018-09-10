@@ -1,5 +1,4 @@
 import './style.css'
-import React from 'react'
 import Button from '../button/index'
 
 export default class Popover extends React.Component {
@@ -56,7 +55,7 @@ export default class Popover extends React.Component {
     render() {
         return (
             <div className='popover'>
-                <button class='button popover-click' title={this.props.title} onClick={this.toggle} ref="_button">{this.props.title}</button>
+                <button className='button popover-click' title={this.props.title} onClick={this.toggle} ref="_button">{this.props.title}</button>
                 <div className={`popover-toggle ${this.state.display ? '' : 'hidden'}`} ref="_toggle">{this.props.content}</div>
             </div>
         )

@@ -1,5 +1,4 @@
 import './style.css'
-import React from 'react'
 import Button from '../button/index'
 
 export default class Dropdown extends React.Component {
@@ -27,7 +26,7 @@ export default class Dropdown extends React.Component {
             <div className='dropdown'>
                 <button className='button popover-click' title={this.state.title} onClick={this.toggle}>{this.state.title}</button>
                 <div className={`dropdown-content ${this.state.display ? 'show' : ''}`}>
-					{this.props.options.map((e, i) => <a key={i} href='#' onClick={() => this.select(e)}>{e}</a>)}
+					{this.props.options.map((e, i) => <a key={i} href='javascript:void(0)' onClick={() => this.select(e)}>{e}</a>)}
 				</div>
             </div>
         )

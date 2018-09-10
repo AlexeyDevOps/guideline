@@ -1,5 +1,4 @@
 import './style.css'
-import React from 'react'
 import Button from '../button/index'
 
 export default class Modal extends React.Component {

@@ -1,5 +1,4 @@
 import './style.css'
-import React from 'react'
 
 const Table = (props) => 
 	<table className='table'>

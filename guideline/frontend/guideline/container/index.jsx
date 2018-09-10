@@ -1,5 +1,4 @@
 import './style.css'
-import React from 'react'
 
 const Container = (props) => <div className={`blocks-container ${props.className}`}>{props.content}</div>
 
