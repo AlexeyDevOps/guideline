@@ -1,0 +1,26 @@
+﻿.base-container {
+	display: flex;
+	justify-content: center;
+}
+
+.calculator-container {
+	border: 1px solid #4a8af7;
+	border-radius: 3px;
+	padding: 30px 50px;
+	width: 360px;
+	height: 350px;
+	margin-top: 50px;
+}
+
+.value-container {
+	margin: 0 0 10px 10px;
+}
+
+.value-container .input {
+	width: 340px;
+}
+
+.buttons-container .button {
+	width: 70px;
+	margin: 10px;	
+}
