@@ -1,7 +1,7 @@
 {
-  "name": "simple-react",
+  "name": "allo-calculator",
   "version": "0.0.1",
-  "description": "simple react project",
+  "description": "react calculator project",
   "license": "MIT",
   "files": [
     "frontend",
